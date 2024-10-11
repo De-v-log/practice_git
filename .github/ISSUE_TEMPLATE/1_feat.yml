@@ -18,3 +18,17 @@ body:
       placeholder: 기능을 구현하기 위한 방법이나 기술 스택이 있다면 적어주세요!
     validations:
       required: false
+
+  - type: checkboxes
+    id: todo
+    attributes:
+      label: Todo List
+    options:
+      - label: 기능 구현에 필요한 주요 단계 1
+        value: step1
+      - label: 기능 구현에 필요한 주요 단계 2
+        value: step2
+      - label: 기능 테스트 계획 수립
+        value: step3
+      - label: 문서화 및 코드 주석 추가
+        value: step4
