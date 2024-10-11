@@ -1,9 +1,7 @@
 name: Bug Report
-description: 버그 및 수정사항이 있을때 사용하는 템플릿
-labels: [bug]
-title: '[Bug]:'
-projects:
-  -
+description: 버그 및 수정사항 요청사항
+labels: [🚨bug]
+title: '[BUG] '
 body:
   - type: textarea
     id: description
@@ -22,16 +20,9 @@ body:
         최소한으로 재현 가능한 코드 또는 재현 단계를 설명해주세요. 선택 사항이지만 권장됩니다.
 
   - type: textarea
-    id: possible-solution
+    id: pic
     attributes:
-      label: Possible Solution
-      placeholder: 제 생각에는 아마도...
-    validations:
-      required: false
-
-  - type: textarea
-    id: etc
-    attributes:
-      label: etc.
+      label: picture
+      description: 관련된 사진이 있다면 캡쳐 후 등록해주세요.
     validations:
       required: false
