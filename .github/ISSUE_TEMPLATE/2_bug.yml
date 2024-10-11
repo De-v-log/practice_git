@@ -1,6 +1,6 @@
 name: Bug Report
 description: 버그 및 수정사항 요청사항
-labels: [🚨bug]
+labels: [bug]
 title: '[BUG] '
 body:
   - type: textarea

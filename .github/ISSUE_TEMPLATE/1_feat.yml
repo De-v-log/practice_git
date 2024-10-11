@@ -1,6 +1,6 @@
 name: Feature Request
 description: 새로운 기능에 대한 제안 요청
-labels: [✨feat]
+labels: [feat]
 title: '[FEAT] '
 body:
   - type: textarea
